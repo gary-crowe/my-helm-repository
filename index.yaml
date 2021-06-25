@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  blacklist-ephemeral:
+  - apiVersion: v1
+    created: "2021-06-25T20:57:25.01012715+01:00"
+    description: |-
+      TheBlacklist, without persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
+
+      WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+    digest: 04107bb697d49e5ebf76a145f9ca6a3283294e300bc107863f3cfd3e25c08248
+    name: blacklist-ephemeral
+    tags: blacklist,mysql,python
+    urls:
+    - https://github.com/gary-crowe/my-helm-repository/blacklist-ephemeral-v0.0.1.tgz
+    version: v0.0.1
+  - apiVersion: v1
+    created: "2021-06-25T20:57:25.011686798+01:00"
+    description: |-
+      TheBlacklist, without persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
+
+      WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+    digest: 5cd929606886c46a8a1abb7b48947824e634b4351cf5b87f8c11b2e9268046ca
+    name: blacklist-ephemeral
+    tags: blacklist,mysql,python
+    urls:
+    - https://github.com/gary-crowe/my-helm-repository/.deploy/blacklist-ephemeral-v0.0.1.tgz
+    version: v0.0.1
+  blacklist-persistent:
+  - apiVersion: v1
+    created: "2021-06-25T20:57:25.010937918+01:00"
+    description: TheBlacklist, with persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
+    digest: 2606cfd0392258a3af84806113aa5deaa6f66140ec7b2af36bccbdb30bee06c9
+    name: blacklist-persistent
+    tags: blacklist,mysql,python
+    urls:
+    - https://github.com/gary-crowe/my-helm-repository/blacklist-persistent-v0.0.1.tgz
+    version: v0.0.1
+  - apiVersion: v1
+    created: "2021-06-25T20:57:25.012396915+01:00"
+    description: TheBlacklist, with persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
+    digest: 9060e74e56462891f587b9ff23cbe00941ddd0e99c3e82fd0545dfaa3d051ca5
+    name: blacklist-persistent
+    tags: blacklist,mysql,python
+    urls:
+    - https://github.com/gary-crowe/my-helm-repository/.deploy/blacklist-persistent-v0.0.1.tgz
+    version: v0.0.1
+generated: "2021-06-25T20:57:25.009105005+01:00"
