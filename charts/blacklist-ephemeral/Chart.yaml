@@ -4,4 +4,5 @@ description: |-
   WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
 name: blacklist-ephemeral
 tags: blacklist,mysql,python
+icon: https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png
 version: v0.0.1
