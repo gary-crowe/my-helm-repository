@@ -11,7 +11,7 @@ entries:
     name: blacklist-ephemeral
     tags: blacklist,mysql,python
     urls:
-    - https://github.com/gary-crowe/my-helm-repository/blacklist-ephemeral-v0.0.1.tgz
+    - https://github.com/gary-crowe/my-helm-repository/releases/download/blacklist-ephemeral-v0.0.1/blacklist-ephemeral-v0.0.1.tgz
     version: v0.0.1
   blacklist-persistent:
   - apiVersion: v1
@@ -21,6 +21,6 @@ entries:
     name: blacklist-persistent
     tags: blacklist,mysql,python
     urls:
-    - https://github.com/gary-crowe/my-helm-repository/blacklist-persistent-v0.0.1.tgz
+    - https://github.com/gary-crowe/my-helm-repository/releases/download/blacklist-persistent-v0.0.1/blacklist-persistent-v0.0.1.tgz
     version: v0.0.1
 generated: "2021-06-25T21:22:26.788933066+01:00"
