@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  blacklist-ephemeral:
+  - apiVersion: v1
+    created: "2021-06-25T20:44:56.72445616+01:00"
+    description: |-
+      TheBlacklist, without persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
+
+      WARNING: Any data stored will be lost upon pod destruction. Only use this template for testing
+    digest: 5cd929606886c46a8a1abb7b48947824e634b4351cf5b87f8c11b2e9268046ca
+    name: blacklist-ephemeral
+    tags: blacklist,mysql,python
+    urls:
+    - https://github.com/gary-crowe/my-helm-repository/releases/download/blacklist-ephemeral-v0.0.1/blacklist-ephemeral-v0.0.1.tgz
+    version: v0.0.1
+  blacklist-persistent:
+  - apiVersion: v1
+    created: "2021-06-25T20:44:56.885950101+01:00"
+    description: TheBlacklist, with persistent storage. For more information about
+      using this template, see https://github.com/gary-crowe/hitlist
+    digest: 9060e74e56462891f587b9ff23cbe00941ddd0e99c3e82fd0545dfaa3d051ca5
+    name: blacklist-persistent
+    tags: blacklist,mysql,python
+    urls:
+    - https://github.com/gary-crowe/my-helm-repository/releases/download/blacklist-persistent-v0.0.1/blacklist-persistent-v0.0.1.tgz
+    version: v0.0.1
+generated: "2021-06-25T20:44:56.309069192+01:00"
