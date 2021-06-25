@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   blacklist-ephemeral:
   - apiVersion: v1
-    created: "2021-06-25T20:57:25.01012715+01:00"
+    created: "2021-06-25T20:58:42.192033212+01:00"
     description: |-
       TheBlacklist, without persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
 
@@ -14,7 +14,7 @@ entries:
     - https://github.com/gary-crowe/my-helm-repository/blacklist-ephemeral-v0.0.1.tgz
     version: v0.0.1
   - apiVersion: v1
-    created: "2021-06-25T20:57:25.011686798+01:00"
+    created: "2021-06-25T20:58:42.194026329+01:00"
     description: |-
       TheBlacklist, without persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
 
@@ -27,7 +27,7 @@ entries:
     version: v0.0.1
   blacklist-persistent:
   - apiVersion: v1
-    created: "2021-06-25T20:57:25.010937918+01:00"
+    created: "2021-06-25T20:58:42.193086785+01:00"
     description: TheBlacklist, with persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
     digest: 2606cfd0392258a3af84806113aa5deaa6f66140ec7b2af36bccbdb30bee06c9
     name: blacklist-persistent
@@ -36,7 +36,7 @@ entries:
     - https://github.com/gary-crowe/my-helm-repository/blacklist-persistent-v0.0.1.tgz
     version: v0.0.1
   - apiVersion: v1
-    created: "2021-06-25T20:57:25.012396915+01:00"
+    created: "2021-06-25T20:58:42.195069778+01:00"
     description: TheBlacklist, with persistent storage. For more information about using this template, see https://github.com/gary-crowe/hitlist
     digest: 9060e74e56462891f587b9ff23cbe00941ddd0e99c3e82fd0545dfaa3d051ca5
     name: blacklist-persistent
@@ -44,4 +44,4 @@ entries:
     urls:
     - https://github.com/gary-crowe/my-helm-repository/.deploy/blacklist-persistent-v0.0.1.tgz
     version: v0.0.1
-generated: "2021-06-25T20:57:25.009105005+01:00"
+generated: "2021-06-25T20:58:42.190674837+01:00"
